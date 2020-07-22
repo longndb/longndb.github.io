@@ -1,0 +1,64 @@
+# Site
+name: "Edward's Blog"
+title: "Memoirs"
+description: "The story of work and life"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: #/ jekyll-theme-memoirs
+#google_analytics: 'UA-xxxxxxxx-1'
+#disqus: 'demowebsite'
+#mailchimp-list: ''
+include: ["_pages"]
+permalink: /:title/
+email: longbao128@gmail.com
+
+# Authors
+authors:
+  edward:
+    name: Edward
+    display_name: Edward
+    gravatar: c661cabc66efa29764744ea9766c2758
+    email: longbao128@gmail.com
+    #web:
+    #twitter: 
+    #description: 
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-figure
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+highlighter: none
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+# Post Author Box ("enabled" or "disabled")
+authorbox: "enabled"
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
