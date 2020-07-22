@@ -5,6 +5,7 @@ Gemfile.lock
 .sass-cache
 *~
 .jekyll-cache
+vendor
 .bundle
 docker-compose.yaml
 .vscode
