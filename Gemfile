@@ -8,7 +8,6 @@ source "https://rubygems.org"
 #
 
 # If you have any plugins, put them here!
-ruby '2.6.0'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 group :jekyll_plugins do
     gem 'jekyll-feed'
@@ -17,7 +16,8 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
     gem 'jekyll-figure'
-    gem 'bootstrap', '~> 4.4.1'
+    gem 'bootstrap', '~> 4.5.0'
+    # gem 'bootstrap', '~> 4.4.1'
     gem 'kramdown'
     gem 'rouge'
     gem 'jekyll-highlight'
