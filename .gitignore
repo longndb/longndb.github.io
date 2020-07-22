@@ -6,5 +6,5 @@ Gemfile.lock
 *~
 .jekyll-cache
 .bundle
-vendor
 docker-compose.yaml
+.vscode
